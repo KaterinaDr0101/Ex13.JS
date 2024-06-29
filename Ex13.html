@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Увеличивающаяся картинка</title>
+</head>
+<body>
+  <img src="picture.jfif" id="myImage" onmouseover="enlargeImage()" onmouseout="reduceImage()">
+
+  <script language="JavaScript" type="text/JavaScript">
+    function enlargeImage() {
+      document.getElementById("myImage").style.width = "600px"; 
+      document.getElementById("myImage").style.height = "auto"; 
+    }
+
+    function reduceImage() {
+      document.getElementById("myImage").style.width = "25px"; 
+      document.getElementById("myImage").style.height = "auto"; 
+    }
+  </script>
+</body>
+</html>
